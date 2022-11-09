@@ -17,16 +17,10 @@ export const Link = styled(NavLink)`
     margin-right: 0;
   }
   &.active {
-    font-family: system-ui;
-    font-size: 18px;
-    font-weight: 700;
     background-color: blue;
     color: white;
     border-radius: 4px;
     padding: 3px;
     text-decoration: none;
-  }
-  :hover {
-    color: #00000050;
   }
 `;
