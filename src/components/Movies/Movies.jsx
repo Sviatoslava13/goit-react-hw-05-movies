@@ -55,8 +55,6 @@ const Movies = () => {
           ))}
         </List>
       )}
-
-      <Outlet />
     </Container>
   );
 };

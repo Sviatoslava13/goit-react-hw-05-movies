@@ -35,7 +35,6 @@ function Reviews() {
           ))}
         </ReviewsList>
       </Container>
-      <Outlet />
     </>
   );
 }

@@ -8,6 +8,13 @@ export const Nav = styled.nav`
   padding: 0 50px;
 `;
 export const Link = styled(NavLink)`
+  &.active {
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    padding: 3px;
+    text-decoration: none;
+  }
   font-family: system-ui;
   font-size: 18px;
   font-weight: 700;
@@ -16,11 +23,5 @@ export const Link = styled(NavLink)`
   :last-child {
     margin-right: 0;
   }
-  &.active {
-    background-color: blue;
-    color: white;
-    border-radius: 4px;
-    padding: 3px;
-    text-decoration: none;
-  }
-`;
+`
+;

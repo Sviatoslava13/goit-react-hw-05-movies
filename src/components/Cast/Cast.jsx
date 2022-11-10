@@ -43,7 +43,6 @@ function Cast() {
           ))}
         </CastList>
       </Container>
-      <Outlet />
     </>
   );
 }
