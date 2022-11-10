@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { fetchSearchMovies } from '../Movied.js';
-import { Outlet, useLocation, useSearchParams } from 'react-router-dom';
+import { useLocation, useSearchParams } from 'react-router-dom';
 import {
   Form,
   Input,
